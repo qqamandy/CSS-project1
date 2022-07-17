@@ -1,0 +1,14 @@
+.card{
+    //改變視角(使用者互動更好)
+    perspective: 150rem;
+    //在firefox瀏覽器也可使用
+    -moz-perspective: 150rem;
+    background-color: orangered;
+    height: 50rem;
+    // transition: all .8s;
+
+    // &:hover{
+
+    //     transform: rotateY(180deg);
+    // }
+}
